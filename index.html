@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ссылки на код в IntelliJ IDEA</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main>
+    <h1>Ссылки на код в IntelliJ IDEA</h1>
+    <p>Откройте локальную копию <code>idea-code-links</code> в IDEA и настройте обработчик по <a href="README.md">инструкции</a>.</p>
+
+    <section class="example" id="css-file">
+      <h2>CSS-файл</h2>
+      <a class="code-link" href="jetbrains://idea/navigate/reference?project=idea-code-links&amp;path=styles.css">Открыть styles.css</a>
+      <details>
+        <summary>URL</summary>
+        <pre><code>jetbrains://idea/navigate/reference?project=idea-code-links&amp;path=styles.css</code></pre>
+      </details>
+    </section>
+
+    <section class="example" id="css-class">
+      <h2>Класс .code-link</h2>
+      <p>Объявление в <code>styles.css</code>, строка 1.</p>
+      <a class="code-link" href="jetbrains://idea/navigate/reference?project=idea-code-links&amp;path=styles.css:1:1">Открыть .code-link</a>
+      <details>
+        <summary>URL</summary>
+        <pre><code>jetbrains://idea/navigate/reference?project=idea-code-links&amp;path=styles.css:1:1</code></pre>
+      </details>
+    </section>
+
+    <footer>
+      <a href="README.md">Настройка и вставка ссылок</a>
+      <a href="styles.css">Исходный CSS</a>
+    </footer>
+  </main>
+</body>
+</html>

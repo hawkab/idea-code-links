@@ -1,0 +1,109 @@
+.code-link {
+  display: inline-block;
+  padding: 10px 16px;
+  border-radius: 6px;
+  background: #2456ce;
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+:root {
+  color-scheme: light;
+  font: 16px/1.6 system-ui, sans-serif;
+  color: #1b2533;
+  background: #f5f6f8;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  max-width: 760px;
+  margin: 56px auto;
+  padding: 0 24px;
+}
+
+h1 {
+  font-size: 32px;
+  line-height: 1.2;
+  margin: 0 0 16px;
+}
+
+h2 {
+  font-size: 21px;
+  margin: 0 0 12px;
+}
+
+p {
+  margin: 0 0 20px;
+}
+
+.example {
+  margin: 20px 0;
+  padding: 24px;
+  border: 1px solid #dce1e8;
+  border-radius: 10px;
+  background: #fff;
+  scroll-margin-top: 24px;
+}
+
+.example:target {
+  border-color: #2456ce;
+}
+
+.code-link:hover {
+  background: #1b43a3;
+}
+
+a:focus-visible,
+summary:focus-visible {
+  outline: 3px solid #b36b00;
+  outline-offset: 4px;
+}
+
+a {
+  color: #2456ce;
+}
+
+details {
+  margin-top: 18px;
+}
+
+summary {
+  cursor: pointer;
+}
+
+pre {
+  padding: 12px;
+  background: #f5f6f8;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+
+code {
+  font-family: ui-monospace, monospace;
+}
+
+footer {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 28px;
+}
+
+@media (max-width: 480px) {
+  main {
+    margin: 32px auto;
+    padding: 0 16px;
+  }
+
+  .example {
+    padding: 20px;
+  }
+}
