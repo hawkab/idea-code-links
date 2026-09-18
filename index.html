@@ -1,39 +1,19 @@
 <!doctype html>
-<html lang="ru">
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Ссылки на код в IntelliJ IDEA</title>
+  <title>IDEA code links</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <main>
-    <h1>Ссылки на код в IntelliJ IDEA</h1>
-    <p>Откройте локальную копию <code>idea-code-links</code> в IDEA и настройте обработчик по <a href="https://github.com/hawkab/idea-code-links#readme">инструкции</a>.</p>
-
-    <section class="example" id="css-file">
-      <h2>CSS-файл</h2>
-      <a class="code-link" href="jetbrains://idea/navigate/reference?project=idea-code-links&amp;path=styles.css">Открыть styles.css</a>
-      <details>
-        <summary>URL</summary>
-        <pre><code>jetbrains://idea/navigate/reference?project=idea-code-links&amp;path=styles.css</code></pre>
-      </details>
-    </section>
-
-    <section class="example" id="css-class">
-      <h2>Класс .code-link</h2>
-      <p>Объявление в <code>styles.css</code>, строка 1.</p>
-      <a class="code-link" href="jetbrains://idea/navigate/reference?project=idea-code-links&amp;path=styles.css:1:1">Открыть .code-link</a>
-      <details>
-        <summary>URL</summary>
-        <pre><code>jetbrains://idea/navigate/reference?project=idea-code-links&amp;path=styles.css:1:1</code></pre>
-      </details>
-    </section>
-
-    <footer>
-      <a href="https://github.com/hawkab/idea-code-links#readme">Настройка и вставка ссылок</a>
-      <a href="styles.css">Исходный CSS</a>
-    </footer>
+  <main id="css-class">
+    <h1>IDEA code links</h1>
+    <p>Open the local <code>idea-code-links</code> project in IDEA.</p>
+    <p><code>styles.css:15</code></p>
+    <a class="code-link" href="jetbrains://idea/navigate/reference?project=idea-code-links&amp;path=styles.css:15:1">Open .code-link</a>
+    <pre>jetbrains://idea/navigate/reference?project=idea-code-links&amp;path=styles.css:15:1</pre>
+    <p><a href="https://github.com/hawkab/idea-code-links#readme">README</a></p>
   </main>
 </body>
 </html>
