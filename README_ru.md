@@ -4,6 +4,10 @@
 
 Открытие локального файла на нужной строке в IntelliJ IDEA из браузера.
 
+[![Поддержать проект · TON network](https://hawkab.github.io/support/support-button.svg)](https://hawkab.github.io/support/)
+
+Необязательные взносы помогают в разработке, сопровождении и тестировании. На [странице поддержки](https://hawkab.github.io/support/) есть QR-код, ссылка на кошелёк и кнопки копирования — работает на компьютере и телефоне. Сумму вы выбираете в кошельке.
+
 ## Где использовать
 
 Jira, Confluence, Test IT, Allure TestOps: вставьте ссылку на код в описание или поле ссылки. Если `jetbrains://` запрещен, используйте [ссылку на демо](https://hawkab.github.io/idea-code-links/#css-class).
